@@ -1,9 +1,9 @@
 const express = require("express")
 const router = express.Router()
 const authRouter = require("./authRouter")
-const productRouter = require("./productRouter")
+const taskRouter = require("./taskRouter")
 
 router.use('/auth', authRouter)
-router.use('/product', productRouter)
+router.use('/product', taskRouter)
 
 module.exports = router

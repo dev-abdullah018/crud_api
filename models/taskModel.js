@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const productSchema = new mongoose.Schema({
+const taskSchema = new mongoose.Schema({
 
   title: {
     type: String,
@@ -17,4 +17,4 @@ const productSchema = new mongoose.Schema({
   }
 });
 
-module.exports = mongoose.model('Product', productSchema);
+module.exports = mongoose.model('Task', taskSchema);
