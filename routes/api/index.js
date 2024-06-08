@@ -4,6 +4,6 @@ const authRouter = require("./authRouter")
 const taskRouter = require("./taskRouter")
 
 router.use('/auth', authRouter)
-router.use('/product', taskRouter)
+router.use('/tasks', taskRouter)
 
 module.exports = router
